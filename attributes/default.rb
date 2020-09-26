@@ -1,5 +1,5 @@
 # SSH ports data bag item
-default[:olyn_openssh][:ports_data_bag_item] = 'openssh'
+default[:olyn_openssh][:port][:data_bag_item] = 'openssh'
 
 # OpenSSH wrapper overrides
 override[:openssh][:server][:login_grace_time]        = '20s'
